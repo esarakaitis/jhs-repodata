@@ -1,0 +1,9 @@
+[base]
+name=CentOS-6.5 - Base
+baseurl=file:///mnt/nfs0/CentOS/6.5/os/$basearch/
+gpgcheck=0
+
+[update]
+name=CentOS-6.5 - Updates
+baseurl=file:///mnt/nfs0/CentOS/6.5/updates/$basearch/
+gpgcheck=0
